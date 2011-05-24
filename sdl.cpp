@@ -1,3 +1,6 @@
+/* Copyright (c) 2011 Kevin Wells */
+/* Floating Point Colors may be freely redistributed.  See license for details. */
+
 #include "sdl.h"
 #include "variables.h"
 
