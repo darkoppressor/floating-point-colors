@@ -14,7 +14,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-fexpensive-optimizations" />
-					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-w" />
 					<Add directory="..\..\SDL\include\SDL" />
 					<Add directory="..\..\SDL\SDL_ttf\include" />
 					<Add directory="..\..\MinGW\include" />
@@ -22,11 +23,11 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add option="-lws2_32" />
 					<Add option="-lmingw32" />
 					<Add option="-lSDLmain" />
 					<Add option="-lSDL" />
 					<Add option="-mwindows" />
+					<Add option="-Wl,--stack=67108864" />
 					<Add library="..\..\SDL\lib\libSDL.dll.a" />
 					<Add library="..\..\SDL\lib\libSDLmain.a" />
 					<Add library="..\..\MinGW\lib\libopengl32.a" />
