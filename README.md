@@ -1,5 +1,6 @@
 # floating-point-colors
 Display floating point colors
+http://cheeseandbacon.org/
 
 This little tool just displays a rectangle of color. You can manipulate the color of the rectangle, and see what the red, green, blue color value is in floating point form.
 
